@@ -65,7 +65,7 @@ function init(){
     ball = new BALL(w/2, h/2+50);
     platforma = new PLATFORMA(w/2,h-20);
     platforma.x -= platforma.width/2;
-    blocks = new BLOCKS((w/5),18,6,20);// 20 блоков в строке, 6 уровней
+    blocks = new BLOCKS((w/20),18,6,20);// 20 блоков в строке, 6 уровней
     blocks.obj=[];
     for(var i = 0; i<blocks.rows;i++){
         blocks.obj[i]=[];
